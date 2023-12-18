@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Demo</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+
+</head>
+<body>
+<div class="wrapper">
+
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+    </ul>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+          <i class="fas fa-expand-arrows-alt"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="#" class="brand-link">
+      <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <span class="brand-text font-weight-light">Demo</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <li class="nav-item">
+            <a href="#" class="nav-link active">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                輔助盤
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                設定
+              </p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-12">
+            <h1 class="m-0">輔助盤</h1>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <!-- jQuery Knob -->
+            <div class="card">
+              <div class="card-header bg-light">
+                <h3 class="card-title">
+                  MP-1
+                </h3>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-sm text-center">
+                    <div class="knob-label">AM-PL4B</div>
+                    <input readonly disabled type="text" class="knob a1" value="12.3" data-step=".1" data-min="0" data-max="50" data-width="200" data-height="200" data-fgColor="#00ff00">
+                  </div>
+                  <!-- ./col -->
+                  <div class="col-sm text-center">
+                    <div class="knob-label">AM-PL3</div>
+                    <input readonly disabled type="text" class="knob a2" value="12.3" data-step=".1" data-min="0" data-max="50" data-width="200" data-height="200" data-fgColor="#00ff00">
+                  </div>
+                  <!-- ./col -->
+                  <div class="col-sm text-center">
+                    <div class="knob-label">AM-PL2</div>
+                    <input readonly disabled type="text" class="knob a3" value="12.3" data-step=".1" data-min="0" data-max="50" data-width="200" data-height="200" data-fgColor="#00ff00">
+                  </div>
+                  <!-- ./col -->
+                  <div class="col-sm text-center">
+                    <div class="knob-label">AM-PL4A</div>
+                    <input readonly disabled type="text" class="knob a4" value="12.3" data-step=".1" data-min="0" data-max="50" data-width="200" data-height="200" data-fgColor="#00ff00">
+                  </div>
+                  <!-- ./col -->
+                  <div class="col-sm text-center">
+                    <div class="knob-label">AM-PL4A</div>
+                    <input readonly disabled type="text" class="knob a5" value="12.3" data-step=".1" data-min="0" data-max="50" data-width="200" data-height="200" data-fgColor="#00ff00">
+                  </div>
+                  <!-- ./col -->
+                </div>
+                <!-- /.row -->
+
+                <div class="row">
+                  <div class="col-sm text-center">
+                    <div class="knob-label">VM-PL4B</div>
+                    <input readonly disabled type="text" class="knob v1" value="12.3" data-step=".1" data-min="0" data-max="50" data-width="200" data-height="200" data-fgColor="#ff0000">
+                  </div>
+                  <!-- ./col -->
+                  <div class="col-sm text-center">
+                    <div class="knob-label">VM-PL3</div>
+                    <input readonly disabled type="text" class="knob v2" value="12.3" data-step=".1" data-min="0" data-max="50" data-width="200" data-height="200" data-fgColor="#ff0000">
+                  </div>
+                  <!-- ./col -->
+                  <div class="col-sm text-center">
+                    <div class="knob-label">VM-PL2</div>
+                    <input readonly disabled type="text" class="knob v3" value="12.3" data-step=".1" data-min="0" data-max="50" data-width="200" data-height="200" data-fgColor="#ff0000">
+                  </div>
+                  <!-- ./col -->
+                  <div class="col-sm text-center">
+                    <div class="knob-label">VM-PL4A</div>
+                    <input readonly disabled type="text" class="knob v4" value="12.3" data-step=".1" data-min="0" data-max="50" data-width="200" data-height="200" data-fgColor="#ff0000">
+                  </div>
+                  <!-- ./col -->
+                  <div class="col-sm text-center">
+                    <div class="knob-label">VM-PL4A</div>
+                    <input readonly disabled type="text" class="knob v5" value="12.3" data-step=".1" data-min="0" data-max="50" data-width="200" data-height="200" data-fgColor="#ff0000">
+                  </div>
+                  <!-- ./col -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /row -->
+
+        <div class="row">
+          <div class="col-12">
+            <!-- jQuery Knob -->
+            <div class="card">
+              <div class="card-header bg-light">
+                <h3 class="card-title">
+                  警示燈
+                </h3>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+
+                <div class="row">
+                  <div class="col">
+                    <div class="small-box bg-default alert1">
+                      <div class="inner">
+                        <h3>正常</h3>
+                        <p>161 KV AUTO SYN FAL</p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                  <div class="col">
+                    <div class="small-box bg-default alert2">
+                      <div class="inner">
+                        <h3>正常</h3>
+                        <p>#1 充電機故障</p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                  <div class="col">
+                    <!-- small box -->
+                    <div class="small-box bg-default alert3">
+                      <div class="inner">
+                        <h3>正常</h3>
+                        <p>#3 充電機故障</p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                  <div class="col">
+                    <div class="small-box bg-default alert4">
+                      <div class="inner">
+                        <h3>正常</h3>
+                        <p>#1 DC 正極接地</p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                  <div class="col">
+                    <!-- small box -->
+                    <div class="small-box bg-default alert5">
+                      <div class="inner">
+                        <h3>正常</h3>
+                        <p>#2 DC 正極接地</p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                </div>
+                <!-- /row -->
+
+                <div class="row">
+                  <div class="col">
+                    <div class="small-box bg-default alert6">
+                      <div class="inner">
+                        <h3>正常</h3>
+                        <p>6CB BF RY. ACTION</p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                  <div class="col">
+                    <div class="small-box bg-default alert7">
+                      <div class="inner">
+                        <h3>正常</h3>
+                        <p>#2 充電機故障</p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                  <div class="col">
+                    <!-- small box -->
+                    <div class="small-box bg-default alert8">
+                      <div class="inner">
+                        <h3>正常</h3>
+                        <p>#3 充電機故障</p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                  <div class="col">
+                    <div class="small-box bg-default alert9">
+                      <div class="inner">
+                        <h3>正常</h3>
+                        <p>#1 DC 負極接地</p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                  <div class="col">
+                    <!-- small box -->
+                    <div class="small-box bg-default alert10">
+                      <div class="inner">
+                        <h3>正常</h3>
+                        <p>#2 DC 負極接地</p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                </div>
+                <!-- /row -->
+
+                <div class="row">
+                  <div class="col">
+                    <div class="small-box bg-default alert11">
+                      <div class="inner">
+                        <h3>正常</h3>
+                        <p>O8C TROUBLE</p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                  <div class="col">
+                    <div class="small-box bg-default alert12">
+                      <div class="inner">
+                        <h3>正常</h3>
+                        <p>TR1 過載警報</p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                  <div class="col">
+                    <!-- small box -->
+                    <div class="small-box bg-default alert13">
+                      <div class="inner">
+                        <h3>正常</h3>
+                        <p>TR2 過載警報</p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                  <div class="col">
+                    <div class="small-box bg-default alert14">
+                      <div class="inner">
+                        <h3>正常</h3>
+                        <p>TR3 過載警報</p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                  <div class="col">
+                    <!-- small box -->
+                    <div class="small-box bg-default alert15">
+                      <div class="inner">
+                        <h3>正常</h3>
+                        <p>TR4 過載警報</p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                </div>
+                <!-- /row -->
+
+                <div class="row">
+                  <div class="col">
+                    <div class="small-box bg-default alert16">
+                      <div class="inner">
+                        <h3>正常</h3>
+                        <p>RTU FAILURE</p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                  <div class="col">
+                    <div class="small-box bg-default alert17">
+                      <div class="inner">
+                        <h3>正常</h3>
+                        <p>警示器故障</p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                  <div class="col">
+                    <!-- small box -->
+                    <div class="small-box bg-default alert18">
+                      <div class="inner">
+                        <h3>正常</h3>
+                        <p>#4 空壓機故障</p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                  <div class="col">
+                    <div class="small-box bg-default alert19">
+                      <div class="inner">
+                        <h3>正常</h3>
+                        <p>#5 空壓機故障</p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                  <div class="col">
+                    <!-- small box -->
+                    <div class="small-box bg-default alert20">
+                      <div class="inner">
+                        <h3>正常</h3>
+                        <p>GRZLOCK</p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                </div>
+                <!-- /row -->
+
+                <div class="row">
+                  <div class="col">
+                    <div class="small-box bg-default alert21">
+                      <div class="inner">
+                        <h3>正常</h3>
+                        <p>#1 空壓機故障</p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                  <div class="col">
+                    <div class="small-box bg-default alert22">
+                      <div class="inner">
+                        <h3>正常</h3>
+                        <p>#2 空壓機故障</p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                  <div class="col">
+                    <!-- small box -->
+                    <div class="small-box bg-default alert23">
+                      <div class="inner">
+                        <h3>正常</h3>
+                        <p>#3 空壓機故障</p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                  <div class="col">
+                    <div class="small-box bg-default alert24">
+                      <div class="inner">
+                        <h3>正常</h3>
+                        <p>161KV #2 BUS RELAY</p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                  <div class="col">
+                    <!-- small box -->
+                    <div class="small-box bg-default alert25">
+                      <div class="inner">
+                        <h3>正常</h3>
+                        <p>161KV #4 BUS RELAY</p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                </div>
+                <!-- /row -->
+
+                <div class="row">
+                  <div class="col">
+                    <div class="small-box bg-default alert26">
+                      <div class="inner">
+                        <h3>正常</h3>
+                        <p>空壓機壓力警報</p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                  <div class="col">
+                    <div class="small-box bg-default alert27">
+                      <div class="inner" style="height:112px;">
+                        <h3></h3>
+                        <p></p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                  <div class="col">
+                    <!-- small box -->
+                    <div class="small-box bg-default alert28">
+                      <div class="inner" style="height: 112px;">
+                        <h3></h3>
+                        <p></p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                  <div class="col">
+                    <div class="small-box bg-default alert29">
+                      <div class="inner">
+                        <h3>正常</h3>
+                        <p>161KV #1 BUS RELAY</p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                  <div class="col">
+                    <!-- small box -->
+                    <div class="small-box bg-default alert30">
+                      <div class="inner">
+                        <h3>正常</h3>
+                        <p>161KV #3 BUS RELAY</p>
+                      </div>
+                    </div>
+                    <!-- /small box -->
+                  </div>
+                  <!-- /col-3 -->
+
+                </div>
+                <!-- /row -->
+
+              </div>
+              <!-- /card-body -->
+            </div>
+            <!-- /card -->
+          </div>
+          <!-- /col-12 -->
+        </div>
+        <!-- /row -->
+      </div>
+      <!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="main-footer">
+    <strong>Copyright &copy; 2017-2024 <a href="#">Techxim Co</a>.</strong>
+    All rights reserved.
+    <div class="float-right d-none d-sm-inline-block">
+      <b>Version</b> 1.0.0
+    </div>
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="plugins/jquery-knob/jquery.knob.min.js"></script>
+<script src="dist/js/script.js"></script>
+
+</body>
+</html>
