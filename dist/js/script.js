@@ -5,9 +5,9 @@ setInterval(() => {
     let val = Math.random()*50.0;
     $(`.a${i}`).val(`${val.toFixed(1)}`).trigger('change');
     if (val > 25.0) {
-      $(`.a${i}`).trigger('configure', {"fgColor": "#ff0000", "inputColor": "#ff0000"});
+      $(`.a${i}`).trigger('configure', {"inputColor": "#000000"});
     } else {
-      $(`.a${i}`).trigger('configure', {"fgColor": "#00ff00", "inputColor": "#00ff00"});
+      $(`.a${i}`).trigger('configure', {"inputColor": "#000000"});
     }
   }
 
@@ -15,12 +15,12 @@ setInterval(() => {
     let val = Math.random()*50.0;
     $(`.v${i}`).val(`${val.toFixed(1)}`).trigger('change');
     if (val > 25.0) {
-      $(`.v${i}`).trigger('configure', {"fgColor": "#ff0000", "inputColor": "#ff0000"});
+      $(`.v${i}`).trigger('configure', {"inputColor": "#000000"});
     } else {
-      $(`.v${i}`).trigger('configure', {"fgColor": "#00ff00", "inputColor": "#00ff00"});
+      $(`.v${i}`).trigger('configure', {"inputColor": "#000000"});
     }
   }
-}, 2000)
+}, 1000)
 
 setInterval(() => {
   for (let i = 1; i < 31; i++) {
@@ -35,4 +35,4 @@ setInterval(() => {
       $(`.alert${i} h3`).html("正常");
     }
   }
-}, 2000)
+}, 3000)
